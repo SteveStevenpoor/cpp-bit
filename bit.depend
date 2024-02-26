@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1708964153 source:c:\users\stepy\onedrive\Документы\cpp-bit\bit\main.cpp
+	<iostream>
+	<Bit.h>
+
+1708964322 source:c:\users\stepy\onedrive\Документы\cpp-bit\bit\src\bit.cpp
+	"Bit.h"
+
+1708964024 c:\users\stepy\onedrive\Документы\cpp-bit\bit\include\bit.h
+	<iostream>
+	<vector>
+
