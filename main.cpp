@@ -1,15 +1,12 @@
 #include <iostream>
 #include <Bit.h>
+#include <gtest/gtest.h>
 
-int main()
+using namespace std;
+
+int main(int argc, char **argv)
 {
-    std::vector<int> v{1, 2, 3, 4, 5, 6, 7, 8};
-    Bit b{v};
-    b.print();
-    b.update(0, 10);
-    b.update(0, 1);
-    b.update(7, 10);
-    b.update(7, 2);
-    std::cout << b.sum(6, 7);
-    return 0;
+  ::testing::InitGoogleTest(&argc, argv);
+  
+  return RUN_ALL_TESTS();
 }
